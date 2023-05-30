@@ -1,5 +1,4 @@
 import pandas as pd
-import re
 df=pd.read_excel('C:\\vagrant-vms\\ht.xlsx')
 new_df=df['Additional comments']
 pattern = "\[code\]<I>(.*?)</I>\[/code\]"
